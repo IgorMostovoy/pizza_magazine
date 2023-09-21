@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "MorningBreeze-Bold";
+  src: local("MorningBreeze-Bold"),
+   url("./fonts/MorningBreez/MorningBreeze-Bold.otf") format("OpenType");
+  font-weight: bold;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "MorningBreeze-Light";
+    src: local("MorningBreeze-Light"),
+     url("./fonts/MorningBreez/MorningBreeze-Light.otf") format("OpenType");
+    font-weight:lighter;
+    font-style: normal;
+}
+
+@font-face {
+      font-family: "MorningBreeze";
+      src: local("MorningBreeze"),
+       url("./fonts/MorningBreez/MorningBreeze.otf") format("OpenType");
+      font-weight:normal;
+      font-style: normal;
 }

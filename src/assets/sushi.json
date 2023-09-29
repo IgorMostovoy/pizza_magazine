@@ -1,0 +1,183 @@
+
+
+// [
+// {
+//   "pizza":[{
+//     "id": 0,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/32a726c9e28c49b3b491115e440b5a23_1875x1875.webp",
+//     "title": "Пицца Миксик",
+//     "describe": "Пицца четвертинками с ветчиной, цыпленком, томатами, брынзой, моцареллой, фирменным соусом альфредо",
+//     "types": [0, 1],
+//     "sizes": [26, 30, 40],
+//     "price": 800,
+//     "category": 0,
+//     "rating": 4
+//   },
+
+//   {
+//     "id": 1,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/f8bcc0d18f5a4817a720a159f0f8c37c_584x584.webp",
+//     "title": "Пицца Жюльен",
+//     "describe": "Цыпленок, шампиньоны, сливочный соус с грибами, красный лук, чеснок, моцарелла, смесь сыров чеддер и пармезан, фирменный соус альфредо",
+//     "types": [0],
+//     "sizes": [30, 40],
+//     "price": 754,
+//     "category": 1,
+//     "rating": 6
+//   },
+
+//   {
+//     "id": 2,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/e3f5dfcb094b4c9b8200ca9f573cb2f1_584x584.webp",
+//     "title": "Пицца из сосисок",
+//     "describe": "Соберите свою пиццу 35 см с двумя разными вкусами",
+//     "types": [1],
+//     "sizes": [26, 30, 40],
+//     "price": 915,
+//     "category": 0,
+//     "rating": 2
+//   },
+
+//   {
+//     "id": 3,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/d9c609f1422247f2b87b6293eb461ff0_584x584.webp",
+//     "title": "Пицца из половинок",
+//     "describe": "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
+//     "types": [0, 1],
+//     "sizes": [30, 40],
+//     "price": 589,
+//     "category": 1,
+//     "rating": 6
+//   },
+
+//   {
+//     "id": 4,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_584x584.webp",
+//     "title": "Пепперони фреш",
+//     "describe": "Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус",
+//     "types": [0, 1],
+//     "sizes": [26, 30, 40],
+//     "price": 790,
+//     "category": 0,
+//     "rating": 3
+//   },
+
+//   {
+//     "id": 5,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/ddadb2bd7f2d40459acddbe2f51a2389_584x584.webp",
+//     "title": "Двойной цыплёнок",
+//     "describe": "Цыпленок, моцарелла, фирменный соус альфредо",
+//     "types": [0],
+//     "sizes": [26, 40],
+//     "price": 390,
+//     "category": 1,
+//     "rating": 7
+//   },
+
+//   {
+//     "id": 6,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/02ca2561953b488993878d1f70e359de_584x584.webp",
+//     "title": "Чоризо фреш",
+//     "describe": "Фирменный томатный соус, моцарелла, острая чоризо, сладкий перец",
+//     "types": [0, 1],
+//     "sizes": [26, 40],
+//     "price": 690,
+//     "category": 0,
+//     "rating": 2
+//   },
+
+//   {
+//     "id": 7,
+//     "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/cea570842b754c52b786c231c65bd2e2_584x584.webp",
+//     "title": "Ветчина и сыр",
+//     "describe": "Ветчина, моцарелла, фирменный соус альфредо",
+//     "types": [1],
+//     "sizes": [26, 30, 40],
+//     "price": 845,
+//     "category": 1,
+//     "rating": 8
+//   }],
+  
+  
+//   "sushi": [{
+//     "id": 0,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6195/dd6055a6b86dbd03220c751332321cac.jpg?ad2fbf8c62e9d7f70f7bb3d3c40964a3",
+//     "title": "Роллы Юми",
+//     "describe": "Крем сыр с крабом. Запечённый ролл Томаго чиз",
+//     "price": 365,
+//     "category": 0,
+//     "rating": 4
+//   },
+
+//   {
+//     "id": 1,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6196/bca0f64f13337748000106a422f9f7a4.jpg?01adeeee62e81c6cc8a5cb942861e562",
+//     "title": "Сет Фишка",
+//     "describe": "Запечённый ролл с крабом",
+//     "price": 950,
+//     "category": 1,
+//     "rating": 6
+//   },
+
+//   {
+//     "id": 2,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6197/7be3cb29f97407349ae9369e7f910750.jpg?213959f16ebdb5d2e11ad078ff8914c8",
+//     "title": "Сет Зиг Заг",
+//     "describe": "Роллы: Аляска 1/2, Камчатка 1/2, Сяке-тобико маки 1/2, Филадельфия угорь 1/2, Тори со сливочным сыром 1/2, Филадельфия в кунжуте 1/2",
+//     "price": 874,
+//     "category": 0,
+//     "rating": 2
+//   },
+
+//   {
+//     "id": 3,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6023/87cd37c339fe9b350a2799d591f6910f.jpg?62310e4421f6f3a57d4fd880dab4f6f3",
+//     "title": "Сет Казантип 2.0",
+//     "describe": "Роллы: Годзилла, Филадельфия в кунжуте, Запечённые роллы: Чикен бекон, Ролл с угрем",
+//     "price": 589,
+//     "category": 1,
+//     "rating": 6
+//   },
+
+//   {
+//     "id": 4,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6199/6eeb92e350ee2452ef75b38c96cbab17.jpg?7e627c38af05ef27148920441a601474",
+//     "title": "Сет Скрудж",
+//     "describe": "Роллы: Камчатка 1/2. Запечённые роллы: Горячий краб 1/2, Филадельфия 1/2, Калифорния 1/2. Жареные роллы: Люкс 1/2, Чикен спайси фри 1/2",
+//     "price": 696,
+//     "category": 0,
+//     "rating": 3
+//   },
+
+//   {
+//     "id": 5,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6001/6bb1d478bbbef1618579bf8f7c92149d.jpg?d92e4a47453b1af777317c04f1eaa652",
+//     "title": "Сет Горячий",
+//     "describe": "Жареные роллы: Аристокраб, Кани темпура, Нежность, Цезарь, Оджи-маки",
+//     "price": 545,
+//     "category": 1,
+//     "rating": 7
+//   },
+
+//   {
+//     "id": 6,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6003/530286d24ceb7733d5a4b689e5af0599.jpg?498f7e009ca3a7e3448de451c1a0cfba",
+//     "title": "Сет Запечённый 2.0",
+//     "describe": "Запечённые роллы: Ролл с угрём, Вулкан, Калифорния, Чемпион, Яноме хот",
+//     "price": 713,
+//     "category": 0,
+//     "rating": 2
+//   },
+
+//   {
+//     "id": 7,
+//     "imageUrl": "https://s3v2.elitibi.ru/static/6029/edc18d1d059f7342404059f5297b0769.jpg?95400f7e4952701e9026444375696e68",
+//     "title": "Сет Мини",
+//     "describe": "Запечённые роллы: мини-ролл Томаго чиз, мини-ролл Чиз краб, Тори со сливочным сыром",
+//     "price": 485,
+//     "category": 1,
+//     "rating": 8
+//   }
+// ]
+// }
+// ]

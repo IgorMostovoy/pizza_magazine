@@ -1,15 +1,15 @@
 import React from 'react';
-import styled, {css} from 'styled-components';
-import { baseTheme } from './styles/theme';
+import styled, { css } from 'styled-components';
+import { baseTheme } from '../styles/theme';
 
-import Combo from './assets/Images/Categories/Combo.png';
-import Stock from './assets/Images/Categories/Stock.png';
-import Pizza from './assets/Images/Categories/Pizza.png';
-import Sushi from './assets/Images/Categories/Sushi.png';
-import Drink from './assets/Images/Categories/Drink.png';
-import Snacks from './assets/Images/Categories/Snacks.png';
-import Desserts from './assets/Images/Categories/Dessert.png';
-import Sauce from './assets/Images/Categories/Sauce.png';
+import Combo from '../assets/Images/Categories/Combo.png';
+import Stock from '../assets/Images/Categories/Stock.png';
+import Pizza from '../assets/Images/Categories/Pizza.png';
+import Sushi from '../assets/Images/Categories/Sushi.png';
+import Drink from '../assets/Images/Categories/Drink.png';
+import Snacks from '../assets/Images/Categories/Snacks.png';
+import Desserts from '../assets/Images/Categories/Dessert.png';
+import Sauce from '../assets/Images/Categories/Sauce.png';
 
 const CategoriesList = styled.ul`
   max-width: 100%;
@@ -36,11 +36,12 @@ const CategoriesListItem = styled.li`
   }
 
   ${(props) =>
-    props.active && css
-    `
-    background: red;
-    color: black;
-  `}
+    props.active &&
+    css`
+      background: black;
+      color: ${baseTheme.colors.white};
+      transition-duration: 0.5s;
+    `}
 `;
 
 const ImgStyle = styled.img`
@@ -101,10 +102,10 @@ const Categories = () => {
   return (
     <CategoriesList>
       {categoriesArr.map((obj, i) => (
-        <CategoriesListItem 
+        <CategoriesListItem
+          active={categoryChange === i ? true : false}
           key={i}
           onClick={() => onChangeCategory(i)}
-          CategoriesListItem={categoryChange === i ? 'active' : ''}
         >
           {obj.svg} {obj.value}
         </CategoriesListItem>

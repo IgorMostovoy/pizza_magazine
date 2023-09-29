@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import ShoppingBag from './assets/Images/ShoppingBag.png';
-import { baseTheme } from './styles/theme';
+import ShoppingBag from '../assets/Images/ShoppingBag.png';
+import { baseTheme } from '../styles/theme';
 import { StyledFlex } from './generic/Flex';
 
 const StyledFlexHeader = styled(StyledFlex)`
@@ -44,7 +44,6 @@ const ButtonBasketText = styled.span`
 `;
 
 const Header = () => {
-
   return (
     <StyledFlexHeader height={baseTheme.sizes.header} paddingtop={'40px'}>
       <HeaderTitle>
@@ -88,7 +87,7 @@ const Header = () => {
       </HeaderTitle>
       <ButtonBasket>
         <img src={ShoppingBag} alt="Shopping Bag" />
-        <ButtonBasketText >
+        <ButtonBasketText>
           <p>0 ₽</p>
         </ButtonBasketText>
       </ButtonBasket>
